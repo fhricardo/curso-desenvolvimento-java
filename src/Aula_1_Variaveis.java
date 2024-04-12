@@ -1,4 +1,4 @@
-public class Variaveis {
+public class Aula_1_Variaveis {
     public static void main(String[] args) {
         //Declarando a primeira variável
         int numero;
