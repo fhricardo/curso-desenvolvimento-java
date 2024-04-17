@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Aula_2_EntradaDeDados_Exercicio1 {
+public class Aula_02_EntradaDeDados_EX_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o ano atual. Ex: 2024");

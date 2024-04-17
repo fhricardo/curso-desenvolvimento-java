@@ -1,4 +1,4 @@
-public class Aula_1_Variaveis_Exercicio {
+public class Aula_01_Variaveis_EX_01 {
     public static void main(String[] args) {
         String nome;
         int idade;
