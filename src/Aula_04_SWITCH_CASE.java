@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Aula_04_Condicionais_SWITCH_CASE {
+public class Aula_04_SWITCH_CASE {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um número de 1 a 7...");

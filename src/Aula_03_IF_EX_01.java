@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Aula_03_Condicionais_IF {
+public class Aula_03_IF_EX_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o nome do aluno: ");
@@ -8,11 +8,13 @@ public class Aula_03_Condicionais_IF {
         int nota = scanner.nextInt();
         String status;
         if (nota >= 7){
-            status = "aprovado";
+            status = "foi aprovado";
+        }else if(nota >= 5){
+            status = "está em recuperação";
         }else{
-            status = "reprovado";
+            status = "foi reprovado";
         }
-        System.out.println("O aluno "+aluno+" foi "+status);
+        System.out.println("O aluno "+aluno+" "+status);
         scanner.close();
     }
 }

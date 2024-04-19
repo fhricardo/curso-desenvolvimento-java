@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Aula_04_Condicionais_SWITCH_CASE_EX_01 {
+public class Aula_04_SWITCH_CASE_EX_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o nome do animal: ");
